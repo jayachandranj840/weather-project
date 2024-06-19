@@ -53,11 +53,11 @@ Run the Node.js application using the following command:
 node server.js
 This command starts the server and listens on port 3000 by default.
 
-Access the Application
+10.Access the Application:
 
-10.Open your web browser and navigate to http://localhost:3000/ to view the weather for the default city (London).
+Open your web browser and navigate to http://localhost:3000/ to view the weather for the default city (London).
 
-Customize City
+11.Customize City:
 
 Enter the name of a city in the input form provided on the web page.
 Click on the "Get Weather" button to fetch and display the weather for that city.
@@ -65,18 +65,8 @@ Features
 Dynamic Weather Display: Fetches current weather data (temperature and description) from OpenWeatherMap.
 Error Handling: Handles API request timeouts and retries using a retry mechanism.
 Interactive Web Interface: Utilizes Express.js for serving web pages and Axios for making HTTP requests.
-11.Directory Structure:
-The project directory structure includes the following files and directories:
-
-perl
-weather-app/
-│
-├── server.js            # Main server application file
-├── package.json         # Node.js dependencies and project configuration
-├── package-lock.json    # Auto-generated file for package versions
-├── README.md            # Project documentation file (you are creating this)
-└── .gitignore           # Git ignore file to exclude node_modules and other files
-Dependencies
+ 
+12.Dependencies:
 express: Web framework for Node.js
 axios: Promise-based HTTP client for Node.js
 12.Contributing:
